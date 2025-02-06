@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BusyIndicator.MainPage"
+             xmlns:local="clr-namespace:BusyIndicator">
+
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior  IsVisible="False" />
+    </Shell.BackButtonBehavior>
+
+    <ContentPage.BindingContext>
+        <local:BusyIndicatorService x:Name="viewModel"/>
+    </ContentPage.BindingContext>
+    
+    <Grid>
+        <Button Text="Mail Login" 
+                Clicked="OnNavigate"
+                HorizontalOptions="Center" VerticalOptions="Center" />
+    </Grid>
+
+</ContentPage>
