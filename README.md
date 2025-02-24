@@ -1,4 +1,4 @@
-This article explains how to implement a global [.NET MAUI BusyIndicator](https://www.syncfusion.com/maui-controls/maui-busy-indicator) that allows you to show and hide the indicator from the `BusyIndicatorService` without having to replicate the code in every XAML file. Using this approach, the indicator is dynamically added to the current page's layout, making it easier to manage loading states across your app.
+This article explains how to implement a shared [.NET MAUI BusyIndicator](https://www.syncfusion.com/maui-controls/maui-busy-indicator) that allows you to show and hide the indicator from the `BusyIndicatorService` without having to replicate the code in every XAML file. Using this approach, the indicator is dynamically added to the current page's layout, making it easier to manage loading states across your app.
 
 **Create the BusyIndicator Service**
 
@@ -134,4 +134,4 @@ public partial class MainPage : ContentPage
 
 **Output**
 
-![BusyIndicator-GlobalView.gif](https://support.syncfusion.com/kb/agent/attachment/article/19049/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM1NDk1Iiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.PtsddaKcMY1EGmAV-0OtfpGDa5z6-QgVhGwsOAL_F0w)
+![BusyIndicator_SharedView.gif](https://support.syncfusion.com/kb/agent/attachment/article/19049/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM2NDMzIiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.M_unKMkYBD8k2a3MnBUn9Fp84Y1L0DOBJjPqwnZu7og)
